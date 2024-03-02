@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         webView.getSettings().setSupportZoom(false);
         webView.getSettings().setDomStorageEnabled(true);
         webView.setWebViewClient(new myWebViewclient());
-        webView.loadUrl("https://www.sojobs.com.br");
+        webView.loadUrl("https://sojobs.com.br");
 
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         swipeRefreshLayout.setRefreshing(false);
-                        webView.loadUrl("https://www.sojobs.com.br");
+                        webView.loadUrl("https://sojobs.com.br");
                     }
                 },  3000);
             }

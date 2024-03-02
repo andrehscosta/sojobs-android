@@ -7,3 +7,7 @@
 app.zip
 well-known.zip
 cPanel Trabalhos Cron.png
+
+.DS_Store
+.idea
+.gradle
