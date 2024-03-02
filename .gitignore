@@ -1,0 +1,9 @@
+/vendor/*
+/app/NovaSystem/Socket/*
+/backup-04/*
+/chat2/*
+.env
+.htaccess
+app.zip
+well-known.zip
+cPanel Trabalhos Cron.png
